@@ -34,11 +34,11 @@ export default class extends Controller {
   }
 
   initialize() {
-    console.log("test forked changes");
     this.hide()
   }
 
   connect() {
+    console.log("test forked changes");
     setTimeout(() => {
       this.show()
     }, 200)
