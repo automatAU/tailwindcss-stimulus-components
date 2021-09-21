@@ -34,6 +34,7 @@ export default class extends Controller {
   }
 
   initialize() {
+    console.log("test forked changes");
     this.hide()
   }
 
